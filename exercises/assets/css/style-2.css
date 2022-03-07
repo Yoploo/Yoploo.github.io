@@ -14,40 +14,38 @@ input, button, textarea, select { font: inherit }
 body { background-color: antiquewhite }
 
 /* Desktops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
-	
-/* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+@media (min-width:768px) { body { padding: 4% 20% } }
 
-h1
-{
-    color: brown;
+/* Mobiles */
+@media (max-width:767px) { body { padding: 12% 8% } }
+
+h1 {
     font-size: 72px;
     margin-bottom: 56px;
     text-align: center;
     letter-spacing: 4px;
     font-family: sans-serif;
+    color: brown;
 }
 
-h2
-{
-    color: brown;
+h2 {
     font-size: 30px;
-    margin-bottom: 64px;
+    margin-bottom: 64px;     
     font-family: sans-serif;
     text-align: center;
     line-height: 1.4;
     text-transform: uppercase;
     font-weight: normal;
-}
-
-h3
-{
     color: brown;
 }
 
-p
-{
+h3 {
+    font-size: 32px;
+    margin-bottom: 4px;
+    color: brown;
+}
+
+p {
     font-size: 22px;
     line-height: 1.6;
     margin-bottom: 20px;
